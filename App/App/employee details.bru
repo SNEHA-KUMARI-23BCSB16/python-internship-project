@@ -1,0 +1,15 @@
+meta {
+  name: employee details
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://127.0.0.1:5000/employees
+  body: json
+  auth: none
+}
+
+body:json {
+  {"name":"Shiv","department":"research","age":45}
+}
